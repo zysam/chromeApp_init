@@ -1,0 +1,13 @@
+
+include vendor/lipsum
+extends partials/layout
+
+block title
+	title chrome_init:)
+block styles
+	link(rel="stylesheet", href="styles/main.css", type="text/css")
+
+block content
+	.row
+		.col-md-12
+			h4 Hello,chrome_init!
