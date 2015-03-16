@@ -3,11 +3,12 @@ include vendor/lipsum
 extends partials/layout
 
 block title
-	title chrome_init:)
+	title chromeApp_init:)
 block styles
 	link(rel="stylesheet", href="styles/main.css", type="text/css")
 
 block content
 	.row
 		.col-md-12
-			h4 Hello,chrome_init!
+			.page-header.text-center
+				h3 Hello,world!
