@@ -1,2 +1,25 @@
+//@import 'axis'
+@import '../vendor/bootstrap-styl/bootstrap/variables'
+@import '../vendor/bootstrap-styl/bootstrap/mixins'
+//normalize
+@import '../vendor/bootstrap-styl/bootstrap/normalize'
+//scaffolding
+@import '../vendor/bootstrap-styl/bootstrap/scaffolding'
+//utilities
+@import '../vendor/bootstrap-styl/bootstrap/utilities'
+@import '../vendor/bootstrap-styl/bootstrap/type'
+//@import 'bootstrap-styl/bootstrap/list-group'
+//global-reset()
+//reset-font()
+//normalize-css()
+
+make-grid-columns()
+
+@media (min-width $screen-md-min)
+	make-grid(md)
+ny-border()
+	border palette('Grey','100')
 body
-	background: #5cc3f6
+	background: palette('Grey','300')
+	//padding 50px 50px 0px 50px
+	overflow hidden
