@@ -13,9 +13,9 @@
         }
     },
     "icons": {
-        "16": "images/icon.png",
-        "64": "images/icon.png",
-        "128": "images/icon.png"
+        "16": "images/pumpkin.png",
+        "64": "images/pumpkin.png",
+        "128": "images/pumpkin.png"
     },
     "permissions": [
         "storage",
