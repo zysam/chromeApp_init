@@ -4,7 +4,8 @@
 特色: gulp,coffeescript,stylus,jade livereload 自动刷新。
 
 ```
-git clone
+md chromeApp_init
+git clone https://github.com/zysam/chromeApp_init.git
 npm i
 gulp dev
 
